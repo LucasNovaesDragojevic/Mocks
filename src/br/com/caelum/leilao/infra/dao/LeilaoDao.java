@@ -28,6 +28,8 @@ public class LeilaoDao {
 		}
 	}
 
+	public static String teste() { return "teste"; }
+	
 	private Calendar data(Date date) {
 		Calendar c = Calendar.getInstance();
 		c.setTime(date);
